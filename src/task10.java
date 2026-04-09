@@ -9,7 +9,7 @@ public class task10 {
     }
 
     public static int[] post4(int[] arr) {
-        int lastIndex = 0;
+        int lastIndex = -1;// there is nothing on arr.length-1
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 4) {
